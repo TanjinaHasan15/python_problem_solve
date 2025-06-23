@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyND1zzSo3TTcG6lX4zBj7bu",
+      "authorship_tag": "ABX9TyMrg6VtFFUqr6P1NTTo4/30",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -54,6 +54,57 @@
           "name": "stdout",
           "text": [
             "Hello World!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 33\n",
+        "b = 200\n",
+        "\n",
+        "if b > a:\n",
+        "  print(\"b is greater than a\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1vj2UPzW4LCC",
+        "outputId": "b0ccbd04-ecb8-4118-9def-c04e243924a8"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "b is greater than a\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sample=['mango','banna','birds','simple']\n",
+        "print(sample)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Sqp8FoRb5Bbd",
+        "outputId": "fa3113d4-64a7-476a-f434-68241704a83a"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['mango', 'banna', 'birds', 'simple']\n"
           ]
         }
       ]
